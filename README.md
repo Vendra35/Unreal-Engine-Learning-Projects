@@ -8,7 +8,7 @@ A collection of foundational Unreal Engine / C++ projects, built while completin
 
 ## The Projects
 
-### 1. ShooterSam
+### 1. [ShooterSam](./ShooterSam)
 A robust third-person shooter built on Unreal's Third Person template. This project covers a complete combat, animation, and AI pipeline:
 *   **Animation Pipeline:** Implemented Animation Blueprints, Skeletal Animations, and Blend Spaces. Integrated Animation State Machines, additive animations, and airborne state calculations.
 *   **Combat Mechanics:** Created a custom Gun Actor with socket attachment and spawning logic. Programmed bullet line traces, crosshair HUDs, gun particle effects, sound cues, and bullet damage.
@@ -16,18 +16,18 @@ A robust third-person shooter built on Unreal's Third Person template. This proj
 *   **Artificial Intelligence:** Developed AI Controllers with line-of-sight and NavMesh movement. Built complex Behavior Trees using Blackboards, custom C++ Tasks (e.g., Shoot Task), Services, Decorators, and Selector Nodes.
 *   **C++ Fundamentals:** Deep dive into function overloading, macros, protected members, virtual functions, and range-based for loops.
 
-### 2. BattleBlaster
+### 2. [BattleBlaster](./BattleBlaster)
 A top-down tank combat game focused on input mechanics and game loops.
 *   **Gameplay:** Player tank controlled via input, facing off against enemy turrets that can actively detect the player.
 *   **Combat:** Engineered a projectile firing system complete with health, damage, and destruction mechanics.
 *   **Game Loop & Polish:** Implemented explicit win and lose conditions surfaced through the UI, polished with special effects including particles, sounds, and camera shake.
 
-### 3. DungeonEscape
+### 3. [DungeonEscape](./DungeonEscape)
 An escape-room style level built on the FPS template. Focuses heavily on environmental interaction and level design.
 *   **Level Mechanics:** Coded gameplay elements including Movers, Triggers, Pressure Plates, and an Item System.
 *   **Environment:** Setup a test level from scratch, learning Unreal's lighting system, asset importing, and level design fundamentals.
 
-### 4. ObstacleAssault
+### 4. [ObstacleAssaultNew](./ObstacleAssaultNew)
 The foundational project in the series. Core C++ and Unreal basics:
 *   **Fundamentals:** Project creation and test level setup.
 *   **Mechanics:** Introduction to basic C++ by programming independent platforms that move and rotate within the level.
